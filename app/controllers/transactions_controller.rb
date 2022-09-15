@@ -29,7 +29,6 @@ class TransactionsController < ApplicationController
     end
   end
 
-
   def destroy
     # puts plain: params
     @transaction = Transaction.find(params[:id])
