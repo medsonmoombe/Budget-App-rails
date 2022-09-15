@@ -29,18 +29,6 @@ class TransactionsController < ApplicationController
     end
   end
 
-  def update
-    respond_to do |format|
-      if @transaction.update(transaction_params)
-        format.html do
- redirect_to user_category_transactions_url(@transaction), notice: 'Transaction was successfully updated.'
-        format.json { render :show, status: :ok, location: @transaction }
-      else
-        format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @transaction.errors, status: :unprocessable_entity }
-      end
-    end
-  end
 
   def destroy
     # puts plain: params
