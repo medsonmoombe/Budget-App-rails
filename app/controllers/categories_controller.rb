@@ -22,8 +22,8 @@ class CategoriesController < ApplicationController
       flash[:notice] = 'Category successfully created!'
       redirect_to user_categories_path(@category.user_id)
     else
-      flash[:notice] = "An error occured while adding a category!"
-        render :new
+      flash[:notice] = 'An error occured while adding a category!'
+      render :new
     end
   end
 
