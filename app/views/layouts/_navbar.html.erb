@@ -6,7 +6,9 @@
   <div class="collapse navbar-collapse nav-trans nav-right justify-content-end" id="navbarNav">
     <ul class="navbar-nav me-auto" style= "flex-direction: row; width: 100%;justify-content: end; padding-right: 120px;">
       <li class="nav-item">
+      <% if user_signed_in? %>
       <%= button_to "Logout", destroy_user_session_path, method: :delete, data: {turbo: false}, class: "btn bg-danger text-light"  %>
+      <% end %>
       </li>
     </ul>
   </div>
