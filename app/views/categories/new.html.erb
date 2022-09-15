@@ -1,12 +1,12 @@
-<%= form_with model: @category, url: user_categories_path,local: true, data: {turbo:false}  do |form| %>
-    <div>
-      <%= form.text_field :name, class: "form-control w-100", placeholder: "Name" %>
-    </div>
-  
-    <div>
-      <%= form.text_field :icon, class: "form-control w-100", placeholder: "Icon" %>
-    </div>
-  
+<%= form_with model: @category, :html => { :style => "width: 76%; margin: auto; gap: 10px;  border: 1px solid #eee;" }, url: user_categories_path,local: true, data: {turbo:false}  do |form| %>
+ 
+  <div style= "margin-bottom: 20px;    margin-bottom: 20px; display: flex; flex-direction: column;">
+  <%= image_tag('user.png', style:'width: 200px; height: 200px; margin: auto;') %>
+    <%= form.file_field :icon, class: "form-control w-50", placeholder: "Image or Icon", style: "margin-top: 26px;  margin: auto;" %>
+  </div> 
+  <div>
+    <%= form.text_field :name, class: "form-control w-50", placeholder: "Name" , style: ' padding: 10px; margin: auto;' %>
+  </div>
     <div class="text-center m-3">
       <%= form.submit "Save", class: "btn btn-primary" %>
     </div>

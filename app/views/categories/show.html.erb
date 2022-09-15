@@ -25,6 +25,7 @@
       <h3 class="m-2"><%= entity.name %></h3>
       <h3 class="ms-auto me-2 mt-2">$<%= entity.amount %></h3>
     </div>
+      <%= button_to 'Delete ', user_category_url(id: category.id), method: :delete,  data: {turbo: false}, class: 'btn-category' %>
     <% end %>
   <% end %>
 </div>

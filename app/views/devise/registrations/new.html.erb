@@ -1,6 +1,7 @@
-<h2>Sign up</h2>
+<%= stylesheet_link_tag('try')  %>
+<h2 style= "text-align: center;">Sign up</h2>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name), local: true, data: {turbo:false}) do |f| %>
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), local: true, data: {turbo:false}, class: "form") do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field">
@@ -27,8 +28,9 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit "Sign up"%>
   </div>
 <% end %>
-
+<div class="shared-link">
 <%= render "devise/shared/links" %>
+</div>
