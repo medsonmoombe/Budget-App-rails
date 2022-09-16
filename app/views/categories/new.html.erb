@@ -2,7 +2,7 @@
  
   <div style= "margin-bottom: 20px;    margin-bottom: 20px; display: flex; flex-direction: column;">
   <%= image_tag('user.png', style:'width: 200px; height: 200px; margin: auto;') %>
-    <%= form.file_field :icon, class: "form-control w-50", placeholder: "Image or Icon", style: "margin-top: 26px;  margin: auto;" %>
+    <%= form.file_field :icon, class: "form-control w-50", placeholder: "Image or Icon", style: "margin-top: 26px;  margin: auto;", required: true %>
   </div> 
   <div>
     <%= form.text_field :name, class: "form-control w-50", placeholder: "Name" , style: ' padding: 10px; margin: auto;' %>

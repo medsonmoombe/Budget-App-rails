@@ -178,3 +178,18 @@
     flex-direction: column;
     margin-top: 10px;
 }
+
+.icon-search {
+   color: #fff;
+   margin-right: 20px;
+   margin-top: 5px;
+   font-size: 25px;
+}
+
+.title {
+    list-style: none;
+    margin: auto;
+    text-align: center !important;
+    margin-left: 118px;
+    list-style: none;
+}
