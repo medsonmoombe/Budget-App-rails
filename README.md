@@ -60,13 +60,11 @@ In your browser, go to
 - LinkedIn: https://www.linkedin.com/in/emmanuel-moombe-821918230/
 
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/aimalamiri/Ruby-Catalog/issues).
-
 
 # Acknowledgement
 
