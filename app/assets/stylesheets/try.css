@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('proxima_nova.ttf');
+  }
+
+body {
+  font-family: 'Proxima Nova Light', 'Lato', sans-serif;
+}
+
+
 .category-title {
     text-align: center;
-    color: ;
 }
 
 .category_card {
