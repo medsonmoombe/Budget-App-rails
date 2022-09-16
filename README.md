@@ -1,7 +1,7 @@
 # ![](https://img.shields.io/badge/Microverse-blueviolet) Budget-App-rails
 > ** This is a Budget App
 
-## [Live Version](https://murmuring-mountain-26009.herokuapp.com/)
+## [Live Version](https://fathomless-crag-34030.herokuapp.com/)
 ## [Video Description](https://www.loom.com/share/2ab2b6493400462f8f9aa8d50e1df5ff)
 ![budgetApp](https://user-images.githubusercontent.com/98400013/190477385-c42da0cf-89e6-46a3-a5aa-b07a44631b27.png)
 
@@ -60,13 +60,11 @@ In your browser, go to
 - LinkedIn: https://www.linkedin.com/in/emmanuel-moombe-821918230/
 
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/aimalamiri/Ruby-Catalog/issues).
-
 
 # Acknowledgement
 
